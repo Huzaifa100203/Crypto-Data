@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    color: wheat;
+  }
+  .crypto-tracker {
+    background-image: url(https://images.pexels.com/photos/1447418/pexels-photo-1447418.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-size: 100%;
+    width: 50vw;
+    height: 70vh;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e7e6e670;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px beige;
+    color: white;
+  }
+  label{
+    font-size: 1.5em;
+    padding-right: 10px;
+  }
+  select{
+    font-size: 1.5em;
+    background-color: beige;
+    width: 28%;
+    border-radius: 5px;
+  }
+  .price-data {
+    margin: 10px 0;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
